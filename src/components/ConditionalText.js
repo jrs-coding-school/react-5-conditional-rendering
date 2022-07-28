@@ -16,7 +16,7 @@ export default function ConditionalText() {
                 false || 'default' - The value: {0 || 'undefined'}
             </p>
 
-            <p className={myState == 'on' && 'underline'}>
+            <p>
                 true ? : - {true ? 'true' : 'false'}
             </p>
             <p>
